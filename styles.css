@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fea5a5;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+.birthdate {
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+    max-width: 240px;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e77272;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color:rgb(202, 61, 61);
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+}
